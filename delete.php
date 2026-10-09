@@ -1,8 +1,8 @@
 <?php
 // delete.php
 include 'auth.php';
-require_admin();
 include 'config.php';
+require_admin();
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
